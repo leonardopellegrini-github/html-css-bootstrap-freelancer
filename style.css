@@ -75,12 +75,19 @@ li{
 }
 
 ol{
-  margin: 0px 0px;
+  margin: 0px 0px !important;
 }
 
 .logo{
   font-size: 30px;
   font-weight: 500;
+}
+
+#hamburger{
+  color: #888888;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 /*JUMBOTRON*/
@@ -123,6 +130,10 @@ ol{
 
 footer{
   color: white;
+}
+
+.prefo{
+  padding-top: 34px;
 }
 
 footer li{
