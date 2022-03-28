@@ -32,7 +32,7 @@ h3{
 }
 
 .stella-line.black{
-  background-color: black;
+  background-color: #2C3E50;
 }
 
 .stella-svg{
@@ -41,7 +41,7 @@ h3{
 }
 
 .stella-svg.black{
-  color: black;
+  color: #2C3E50;
 }
 
 .paddingtanto{
@@ -68,7 +68,7 @@ header nav .row{
   height: 100%;
 }
 
-header li{
+li{
   list-style: none;
   display: inline;
   margin: 0 10px;
@@ -103,7 +103,40 @@ ol{
   border-radius: 30px;
 }
 
-/*ABOUT*/
+/*CONTACT*/
+
+#send{
+  background-color: #1ABC9C;
+  color: white;
+  border: none;
+}
+
+.sotto{
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+/*FOOTER*/
+
+footer{
+  color: white;
+}
+
+footer li{
+  border-radius: 80px;
+  border: 1px solid white;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+#startnow{
+  color: #1ABC9C;
+  text-decoration: none;
+}
 
 #download {
   color: white;
@@ -116,7 +149,7 @@ ol{
   color: white;
 }
 
-#prefoot{
+.prefoot{
   background-color: #3A546D;
 }
 
