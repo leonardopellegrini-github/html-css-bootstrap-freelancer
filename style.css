@@ -23,6 +23,38 @@ h1{
 h3{
   font-size: 35px;
 }
+
+.stella-line{
+  padding: 2px;
+  background-color: white;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.stella-line.black{
+  background-color: black;
+}
+
+.stella-svg{
+  margin: 0 10px;
+  color: white;
+}
+
+.stella-svg.black{
+  color: black;
+}
+
+.paddingtanto{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.paddingpoco{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
 /*HEADER*/
 
 header{
@@ -71,14 +103,12 @@ ol{
   border-radius: 30px;
 }
 
-.paddingtanto{
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
+/*ABOUT*/
 
-.paddingpoco{
-  padding-top: 10px;
-  padding-bottom: 10px;
+#download {
+  color: white;
+  background-color: transparent;
+  border-color: white;
 }
 
 .grigio{
