@@ -16,6 +16,13 @@
   margin: 0 auto;
 }
 
+h1{
+  font-size: 45px;
+}
+
+h3{
+  font-size: 35px;
+}
 /*HEADER*/
 
 header{
@@ -46,36 +53,22 @@ ol{
 
 /*JUMBOTRON*/
 
-.avatar{
-  margin: auto;
-}
-
 #avatar{
   max-width: 220px;
 }
 
-.jumbotron h1{
-  font-size: 45px;
+/*PORTFOLIO*/
+
+.card, .card img{
+  height: 100%;
 }
 
-.jumbotron p{
-  font-size: 35px;
+.card{
+  border: none !important;
 }
 
-
-
-.blu{
-  background-color: blue;
-  height: 100px;
-  border: 2px solid white;
-}
-
-.giallo{
-  background-color: yellow;
-}
-
-.viola{
-  background-color: blueviolet;
+.card img{
+  border-radius: 30px;
 }
 
 .paddingtanto{
@@ -102,4 +95,26 @@ ol{
   color: white;
 }
 
+.rosa{
+  background-color: #BA4B63;
+}
 
+.az{
+  background-color: #1EA4B6;
+}
+
+.nero{
+  background-color: #140F0F;
+}
+
+.bluc{
+  background-color: #1C83C1;
+}
+
+.blu{
+  background-color: #0E38B5;
+}
+
+.nocciola{
+  background-color: #CCB2A3;
+}
