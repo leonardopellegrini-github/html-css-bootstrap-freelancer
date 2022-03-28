@@ -39,12 +39,30 @@ ol{
   margin: 0px 0px;
 }
 
-/*JUMBOTRON*/
-
 .logo{
   font-size: 30px;
   font-weight: 500;
 }
+
+/*JUMBOTRON*/
+
+.avatar{
+  margin: auto;
+}
+
+#avatar{
+  max-width: 220px;
+}
+
+.jumbotron h1{
+  font-size: 45px;
+}
+
+.jumbotron p{
+  font-size: 35px;
+}
+
+
 
 .blu{
   background-color: blue;
@@ -81,10 +99,7 @@ ol{
 
 .acqua{
   background-color: #1ABC9C;
+  color: white;
 }
 
 
-#avatar{
-  width: 20%;
-  text-align: center;
-}
